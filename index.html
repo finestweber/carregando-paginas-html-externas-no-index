@@ -1,0 +1,23 @@
+<head>
+    <!--Carrega a biblioteca via CDN. Se vc já carrega outra dentro do seu projeto não precisa-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+
+        $(function () {
+            $('#header').load("paginas/header.html");
+            $('#body').load("paginas/body.html");
+            $('#footer').load("paginas/footer.html");
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="body"></div>
+    <div id="footer"></div>
+
+</body>
